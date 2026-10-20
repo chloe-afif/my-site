@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 46, 73);
+    text-align: center;
+    text-color: rgb(232, 223, 174);
+    padding-top: 50px;
+}
+
+h1{
+    color: rgb(232, 223, 174)
+}
+
+p{
+    color: rgb(232, 223, 174);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007ac0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
