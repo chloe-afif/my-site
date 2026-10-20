@@ -1,23 +1,38 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(10, 51, 35);
+    background-color: #443025;
     text-align: center;
-    text-color: rgb(131, 153, 88);
-    padding-top: 50px;
-}
-
-h1{
-    color: rgb(131, 153, 88)
+    color: #EC9C9D;
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
-    color: rgb(131, 153, 88);
+    color: #EC9C9D;
+    text-align: center;
 }
 
-button{
-    padding: 10px 20px;
-    background-color: #007ac0;
-    color: white;
-    border: none;
-    cursor: pointer;
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+     color: #EC9C9D;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #443025;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* moves nav bar to the left */
+}
+
+a {
+    color: #EC9C9D; 
+    /* color of the font for hyperlinks */
 }
