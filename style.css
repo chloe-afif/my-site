@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #443025;
@@ -7,16 +13,19 @@ body{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
+     min-height: 100vh;
 }
 
 p{
     color: #EC9C9D;
     text-align: center;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
      color: #EC9C9D;
+     padding: 20px;
 }
 
 nav ul {
@@ -35,4 +44,10 @@ nav ul {
 a {
     color: #EC9C9D; 
     /* color of the font for hyperlinks */
+}
+
+table, th, td {
+  border: 1px solid #EC9C9D;
+  border-collapse: collapse;
+  padding: 10px;
 }
