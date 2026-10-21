@@ -25,7 +25,20 @@ p{
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
      color: #EC9C9D;
-     padding: 20px;
+     padding: 10px;
+}
+
+button {
+    background-color: #EC9C9D;
+    color: #443025;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 nav ul {
@@ -33,12 +46,26 @@ nav ul {
     width: 100%;;
     margin: 0;
     padding: 10px;
-    overflow: hidden;
-    background-color: #443025;
-    display: flex;
-    justify-content: space-between; 
+    background-color: #EC9C9D;
+    color: #443025;
+    display: flex;;
+    justify-content: space-around; 
     align-items: center;
-    /* moves nav bar to the left */
+}
+
+nav {
+position: -webkit-sticky; 
+/* Support for Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    /* Keeps the nav bar on top of other content */
+    width: 100%;
+}
+
+nav ul li a {
+    color: #443025;       
+    /* Forces the brown text color onto your links */
 }
 
 a {
@@ -47,7 +74,9 @@ a {
 }
 
 table, th, td {
-  border: 1px solid #EC9C9D;
+  border: 1px solid #EC9C9D;  
   border-collapse: collapse;
   padding: 10px;
+  width: fit-content;
+  table-layout: auto;
 }
