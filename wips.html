@@ -29,7 +29,7 @@
                         <article class="project-card">
                             {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.title }}">{% endif %}
                             <h2>{{ p.title }}</h2>
-                            {% if p.designer %} by {{ p.designer }}{% endif %}</p>{% endif %}
+                            {% if p.designer != blank %}<p>by {{ p.designer }}</p>{% endif %}
                             {% if p.yarn %}<p>Yarn: {{ p.yarn }}</p>{% endif %}
                             {% if p.needles %}<p>Needles: {{ p.needles }}</p>{% endif %}
                             {% if p.start_date %}<p>Started: {{ p.start_date | date: "%b %d, %Y" }}</p>{% endif %}
