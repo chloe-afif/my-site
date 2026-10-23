@@ -1,9 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: chloe-afif/my-site
   branch: main
 
 media_folder: "images/uploads"
-public_folder: "/images/uploads"
+public_folder: "/my-site/images/uploads"
 
 collections:
   - name: "projects"
