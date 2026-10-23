@@ -16,3 +16,4 @@ collections:
       - { label: "Project Title", name: "title", widget: "string" }
       - { label: "Status", name: "status", widget: "select", options: ["WIP", "Finished"] }
       - { label: "Notes", name: "body", widget: "text", required: false }
+
