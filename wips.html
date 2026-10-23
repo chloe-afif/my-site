@@ -27,7 +27,6 @@
                     {% assign p = entry[1] %}
                     {% if p.status == "WIP" %}
                         <article class="project-card">
-                            {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.title }}">{% endif %}
                             <h2>{{ p.title }}</h2>
                             {% if p.designer != blank %}<p>by {{ p.designer }}</p>{% endif %}
                             {% if p.yarn %}<p>Yarn: {{ p.yarn }}</p>{% endif %}
