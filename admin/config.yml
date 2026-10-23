@@ -8,13 +8,19 @@ public_folder: "/my-site/images/uploads"
 
 collections:
   - name: "projects"
-    label: "Knitting Projects"
-    folder: "data/projects"
+    label: "knitting projects"
+    folder: "_data/projects"
     create: true
     slug: "{{slug}}"
     format: "json"
     fields:
-      - { label: "Project Title", name: "title", widget: "string" }
-      - { label: "Status", name: "status", widget: "select", options: ["WIP", "Finished"] }
-      - { label: "Notes", name: "body", widget: "text", required: false }
-
+      - { label: "project title", name: "title", widget: "string" }
+      - { label: "status", name: "status", widget: "select", options: ["WIP", "Finished"] }
+      - { label: "pattern", name: "pattern", widget: "string", required: false }
+      - { label: "designer", name: "designer", widget: "string", required: false }
+      - { label: "yarn", name: "yarn", widget: "string", required: false }
+      - { label: "needles", name: "needles", widget: "string", required: false }
+      - { label: "start_date", name: "start_date", widget: "datetime", time_format: false, required: false }
+      - { label: "finish_date", name: "finish_date", widget: "datetime", time_format: false, required: false }
+      - { label: "photo", name: "photo", widget: "image", required: false }
+      - { label: "notes", name: "body", widget: "text", required: false }
