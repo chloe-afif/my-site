@@ -31,10 +31,10 @@
                         {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.title }}">{% endif %}
                         <h2>{{ p.title }}</h2>
                         {% if p.designer != blank %}<p>by {{ p.designer }}</p>{% endif %}
-                        {% if p.yarn %}<p>Yarn: {{ p.yarn }}</p>{% endif %}
-                        {% if p.needles %}<p>Needles: {{ p.needles }}</p>{% endif %}
-                        {% if p.start_date %}<p>Started: {{ p.start_date | date: "%b %d, %Y" }}</p>{% endif %}
-                        {% if p.finish_date %}<p>Finished: {{ p.finish_date | date: "%b %d, %Y" }}</p>{% endif %}
+                        {% if p.yarn %}<p>yarn: {{ p.yarn }}</p>{% endif %}
+                        {% if p.needles %}<p>needles: {{ p.needles }}</p>{% endif %}
+                        {% if p.start_date %}<p>started: {{ p.start_date | date: "%b %d, %Y" }}</p>{% endif %}
+                        {% if p.finish_date %}<p>finished: {{ p.finish_date | date: "%b %d, %Y" }}</p>{% endif %}
                         {% if p.body %}<p>{{ p.body | escape | newline_to_br }}</p>{% endif %}
                     </article>
                 {% endif %}
