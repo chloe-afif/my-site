@@ -41,10 +41,33 @@ button {
     cursor: pointer;
 }
 
+.sockpattern p, h2 {
+    text-align: center;
+    color: #EC9C9D;
+}
+
+.sockpattern {
+    background-color: #5a4339;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.knitting-terms{
+    background-color: #5a4339;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
 
 nav ul {
     list-style-type: none;
-    width: 100%;;
+    width: 100%%;
     margin: 0;
     padding: 10px;
     background-color: #EC9C9D;
