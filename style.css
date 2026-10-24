@@ -109,3 +109,29 @@ table, th, td {
     transform: scale(1.03); /* Subtle zoom effect */
     cursor: pointer;
 }
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #5a4339;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  margin-top: 8px;
+}
+
+.project-card p {
+  margin: 4px 0;
+}
