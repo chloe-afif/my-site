@@ -124,8 +124,11 @@ table, th, td {
 }
 
 .project-card img {
-  width: 100%;
   border-radius: 8px;
+  width: 300px;         
+  height: 200px;        
+  object-fit: cover;    
+  display: block;
 }
 
 .project-card h2 {
