@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
 }
 
-p{
+p {
     color: #EC9C9D;
     text-align: center;
     padding: 5px;
@@ -41,8 +41,8 @@ button {
     cursor: pointer;
 }
 
-.sockpattern p, h2 {
-    text-align: center;
+.sockpattern p, .sockpattern h3, .sockpattern h2 {
+    text-align: left;
     color: #EC9C9D;
 }
 
@@ -62,7 +62,11 @@ button {
     margin: 20px auto;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.knitting-terms p, .knitting-terms h3, .knitting-terms h2 {
+    text-align: center;
+    color: #EC9C9D;
 }
 
 nav ul {
