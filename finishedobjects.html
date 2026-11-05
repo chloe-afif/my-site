@@ -24,8 +24,9 @@
     <main> 
         <h1>my finished objects</h1>
         <div class="project-list">
-            {% for entry in site.data.projects %}
-                {% assign p = entry[1] %}
+            {% assign sorted = site.data.projects | where: "status", "Finished" | sort: "finish_date" | reverse %}
+            {% for entry in sorted %}
+                {% assign p = entry %}
                 {% if p.status == "Finished" %}
                     <article class="project-card">
                         {% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.title }}">{% endif %}
