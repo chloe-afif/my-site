@@ -88,12 +88,12 @@ button {
 
 nav ul {
     list-style-type: none;
-    width: 100%%;
+    width: 100%;
     margin: 0;
     padding: 10px;
     background-color: #EC9C9D;
     color: #443025;
-    display: flex;;
+    display: flex;
     justify-content: space-around; 
     align-items: center;
 }
